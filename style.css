@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.859);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    position: sticky ;
+    top: 0;
+    z-index: 1000;
+   
+
+}
+.nav-2 {
+    display: flex;
+
+}
+.nav-11 {
+    margin: 12px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease;
+    font-size: 21px;
+    
+    
+
+}
+.nav-11:hover {
+    color: rgba(255, 166, 0, 0.812);
+}
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    align-items: center;
+    overflow: hidden;
+    background-image: url(https://images.pexels.com/photos/7821702/pexels-photo-7821702.jpeg?auto=compress&cs=tinysrgb&w=1200);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.abt-1 {
+    text-align: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.461);
+    color: rgba(255, 255, 255, 0.747);
+    border: 1px solid rgba(0, 0, 0, 0.14);
+    box-shadow: 0 0 10px  rgba(220, 214, 214, 0.217);
+    border-radius: 10px;
+    padding: 10px;
+    
+
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.394);
+    border: 1px solid rgba(255, 255, 255, 0.49);
+    border-radius: 15px;
+    padding: 10px;
+}
+.ser-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.serviceh1 {
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+    margin: 19px;
+}
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.ser-1 {
+    position: relative;
+    width: calc(33.333% - 20px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.484);  
+    cursor: pointer;
+    
+}
+
+.ser-1:hover {
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.ser-2 {
+     position: absolute;
+     width: 100%;
+     bottom: 0;
+     background-color: rgba(229, 237, 237, 0.602);    
+     overflow: hidden;
+     height: 0;
+     transition-duration: 0.8s;
+    
+    
+
+}
+.ser-1:hover  .ser-2    {
+    height: 100%;
+}
+.ser-3 {
+    text-align: center;
+    padding-left: 30px;
+    color: rgb(0, 0, 0);
+    
+}
+.chandu {
+    padding-left: 24px;
+}
+.cham {
+    padding-left: 20px;
+}
+
+.chandu1 {
+    padding-left: 14px;
+}
+.cham1 {
+    padding-left: 9px;
+}
+
+.testimonials {
+    display:flex ;
+    height: 70vh;
+    flex-direction: column;
+    border: 0.1px solid rgba(0, 0, 0, 0.172);
+    background-color: rgba(240, 248, 255, 0.612);
+}
+.test-line {
+    display: flex;
+    flex-direction: row;
+
+    margin: 30px;
+    
+}
+
+.test-card img {
+    height: 40px;
+    padding:   10px;
+
+}
+.test-card {
+    display: flex;
+    background-color: white;
+    border: 0.3px solid rgba(16, 1, 1, 0.463) ;
+    margin: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.test-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.contact-form {
+    
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 50vh;
+}
+
+.cont-1 {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+label {
+    margin-bottom: 8px;
+    
+}
+
+ input textarea {
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 2px solid #ccc;
+    
+
+}
+button {
+    background-color: rgba(0, 149, 255, 0.886);
+    color: white;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 255, 0.422);
+}
+
